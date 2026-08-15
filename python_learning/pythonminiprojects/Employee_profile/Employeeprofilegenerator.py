@@ -2,10 +2,10 @@
 
 
 #Personel information
-employee_name=input('please, enter your name here: ')
+employee_name=input('please, enter your name here: ').strip().title()
 employee_age=int(input('please, enter your age here: '))
-employee_gender=input('please, enter your gender here: ') 
-employee_address=input('please, enter your address here: ')
+employee_gender=input('please, enter your gender here: ').strip() 
+employee_address=input('please, enter your address here: ').strip()
 #job information
 employee_department=input('please, enter your department here: ')
 position=input('please, enter your position here: ')

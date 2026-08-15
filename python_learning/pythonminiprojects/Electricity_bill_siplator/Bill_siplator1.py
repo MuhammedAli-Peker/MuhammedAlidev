@@ -1,8 +1,8 @@
-subscriber_name=input('Please, enter your name here: ')
-street_name=input('Please, enter your street name here: ')
-apartman_name=input('Please, enter your apartman name here: ')
-building_number=input('Please, enter your building number here: ')
-flat_number=input('please enter your flat number here: ')
+subscriber_name=input('Please, enter your name here: ').strip().title()
+street_name=input('Please, enter your street name here: ').strip().title()
+apartman_name=input('Please, enter your apartman name here: ').strip().title()
+building_number=input('Please, enter your building number here: ').strip()
+flat_number=input('please enter your flat number here: ').strip()
 subscriber_adress=f'Street: {street_name} | Apartman: {apartman_name} | Building No: {building_number} | Flat No: {flat_number}'
 password=True
 kw1=1.27 #1 kw electricity price
