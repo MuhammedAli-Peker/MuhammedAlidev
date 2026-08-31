@@ -1,1 +1,0 @@
-#listeler ve döngüler üzerine örnek bir proje
